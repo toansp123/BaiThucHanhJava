@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-public class App96 {
+public class App98 {
     public static void main(String[] args) {
 
         TreeMap<String, Double> treeMap1 = new TreeMap<>();

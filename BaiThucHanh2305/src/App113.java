@@ -7,36 +7,36 @@ public class App113 {
         HashSet<String> Fruit = new HashSet<>();
 
         Fruit.add("Nho");
-        Fruit.add("Bưởi");
-        Fruit.add("Táo");
-        Fruit.add("Măng cụt");
-        Fruit.add("Nhãn");
+        Fruit.add("Buoi");
+        Fruit.add("Tao");
+        Fruit.add("Mang cut");
+        Fruit.add("Nhan");
         Fruit.add("Cam");
-        Fruit.add("Chuối");
+        Fruit.add("Chuoi");
 
         int size = Fruit.size();
-        System.out.println("Có " + size + " loại trái cây ");
+        System.out.println("Co " + size + " loai trai cay ");
 
-        System.out.println("Nhập tên trái cây cần tìm: ");
+        System.out.println("Nhap loai trai cay can tim: ");
         Scanner TCay = new Scanner(System.in);
         String fruitNeed = TCay.next();
 
         for(String item : Fruit) {
             if(item == fruitNeed){
-                System.out.println("Có tôn tại ! ");
+                System.out.println("Co ton tai ! ");
             }
             else
-                System.out.println("Không tồn tại ! ");
+                System.out.println("Khong ton tai ! ");
         }
 
-        Fruit.remove("Chuối");
+        Fruit.remove("Chuoi");
         for(String item : Fruit) {
             System.out.println(item);
         }
 
         HashSet<String> NewFruit = new HashSet<>();
-        NewFruit.add("Mít");
-        NewFruit.add("Mơ");
+        NewFruit.add("Mit");
+        NewFruit.add("Mo");
 
         for(String item : NewFruit) {
             Fruit.add(item);

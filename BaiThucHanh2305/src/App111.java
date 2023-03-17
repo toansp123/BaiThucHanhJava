@@ -10,11 +10,11 @@ public class App111 {
         Scanner TBC = new Scanner(System.in);
         LinkedList<Integer> linkedList = new LinkedList<>();
          
-    System.out.println("Nhập vào số phần tử của danh sách: ");
+    System.out.println("Nhap vao so phan tu cua danh sach : ");
     n = TBC.nextInt();
          
-    for (int i = 0; i < n; i++) {
-        System.out.println("Nhập vào phần tử thứ " + i + ": ");
+    for (int i = 1; i < n; i++) {
+        System.out.println("Nhap vao phan tu thu " + i + ": ");
         node = TBC.nextInt();
         linkedList.add(node);
     }
@@ -27,7 +27,7 @@ public class App111 {
     }
 
     tbCong = (double)sum / count;
-    System.out.println("Trung bình cộng của các số chẵn trong danh sách = " + 
+    System.out.println("Trung binh cong cac so chan trong danh sach = " + 
         DCF.format(tbCong));
     }
 
